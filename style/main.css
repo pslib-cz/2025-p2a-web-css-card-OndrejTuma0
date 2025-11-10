@@ -117,4 +117,7 @@
         border-radius: 12px;
         padding: 2.5em;
     }
+    .card--executive li {
+        padding-bottom: 1em;
+    }
 }
