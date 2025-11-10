@@ -41,7 +41,7 @@
         border-radius: 12px;
     }
     .card--executive {
-        background-color: #9045bb;
+        background-color: #854ef2;
         color: var(--white);
         border-radius: 12px;
     }
@@ -113,7 +113,7 @@
         color: #9045bb
     }
     .pricebox {
-        background-color: #a858d6;
+        background-color: #854ef2;
         border-radius: 12px;
         padding: 2.5em;
     }
