@@ -45,6 +45,11 @@
         color: var(--white);
         border-radius: 12px;
     }
+    .card--pricelist {
+        background-color: #1c2132;
+        color: #bebebe;
+        border-radius: 12px;
+    }
     .card--marketer .card__header{
         margin-top: 1em;
     }
@@ -65,6 +70,13 @@
     }
     .card--executive .card__footer {
         margin-top: 2em;
+    }
+    .card--pricelist .card__header {
+        margin-top: 1em;
+        text-align: center;
+    }
+    .card--pricelist .card__main {
+        text-align: center;
     }
 }
 
@@ -112,12 +124,33 @@
         background-color: var(--white);
         color: #9045bb
     }
-    .pricebox {
+    .card--executive .pricebox {
         background-color:#8f5df2;
         border-radius: 12px;
         padding: 2.5em;
     }
     .card--executive li {
+        padding-bottom: 1em;
+    }
+    .card--pricelist .button {
+        background: none;
+        border: #14b2a1 solid 2px;
+        color: #14b2a1;
+    }
+    .card--pricelist .card--title {
+        font-size: 32px;
+    }
+    .card--pricelist .card--list {
+        list-style: none;
+        padding-left: 0;
+    }
+    .card--pricelist .pricebox {
+        font-size: 64px;
+        font-weight: 250;
+        color: #14b2a1;
+        margin: 1em 0 1em 0;
+    }
+    .card--pricelist li {
         padding-bottom: 1em;
     }
 }
